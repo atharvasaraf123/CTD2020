@@ -544,7 +544,7 @@ public class MainActivity extends AppCompatActivity implements ViewAnimator.View
         int x,y;
         x = title.getLeft();
         y = nccTitle.getTop();
-        hsv.scrollTo(x, y);
+        hsv.smoothScrollTo(x,y);
         y=title.getBaseline();
         x=scrollView1.getRight();
         scrollView1.smoothScrollTo(x,y);
@@ -592,7 +592,7 @@ public class MainActivity extends AppCompatActivity implements ViewAnimator.View
         x = nccTitle.getRight();
         int c=inq.getLeft();
         y = nth_tv.getTop();
-        hsv.scrollTo(x, y);
+        hsv.smoothScrollTo(x,y);
         y=title.getBaseline();
         x=scrollView1.getRight();
         scrollView1.smoothScrollTo(x,y);
@@ -641,7 +641,7 @@ public class MainActivity extends AppCompatActivity implements ViewAnimator.View
         x = nth_tv.getRight();
         y = inq.getTop();
         int c=nth_tv.getRight();
-        hsv.scrollTo(x, y);
+        hsv.smoothScrollTo(x,y);
         y=title.getBaseline();
         x=scrollView1.getRight();
         scrollView1.smoothScrollTo(x,y);
@@ -690,7 +690,7 @@ public class MainActivity extends AppCompatActivity implements ViewAnimator.View
         int x, y;
         x = inq.getRight();
         y = unr.getTop();
-        hsv.scrollTo(x, y);
+        hsv.smoothScrollTo(x,y);
         y=title.getBaseline();
         x=scrollView1.getRight();
         scrollView1.smoothScrollTo(x,y);
